@@ -10,6 +10,7 @@
       <li @click="obj.age++">{{ obj.age }}</li>
     </ul>
   </div>
+  <hr>
 </template>
 
 <script setup lang="ts">
