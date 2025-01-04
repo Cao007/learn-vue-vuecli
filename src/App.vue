@@ -5,6 +5,7 @@
   <LifeCycleComp />
   <RefDomComp />
   <RefCompComp />
+  <NextTickComp />
 </template>
 
 <script lang="ts" setup>
@@ -14,6 +15,7 @@ import ComputedComp from './components/ComputedComp.vue'
 import LifeCycleComp from './components/LifeCycleComp.vue'
 import RefDomComp from './components/RefDomComp.vue'
 import RefCompComp from './components/RefCompComp.vue'
+import NextTickComp from './components/NextTickComp.vue'
 </script>
 
 <style>
