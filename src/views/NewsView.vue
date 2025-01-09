@@ -5,7 +5,7 @@
       <li v-for="item in newsList" :key="item.id">
         <RouterLink :to="{
           name: 'newsItem',
-          params: {
+          query: {
             id: item.id,
             title: item.title,
             content: item.content

@@ -22,9 +22,15 @@ const routes = [
     component: NewsView,
     children: [
       {
-        path: 'newItem/:id/:title/:content', // params参数占位符
+        path: 'newItem',
         name: 'newsItem',
-        component: NewsItem
+        component: NewsItem,
+        // 1.接受params参数
+        // props: true 
+        // 2.props函数，接受params参数或query参数
+        props(route: any) {
+          return route.query;
+        }
       }
     ]
   },
