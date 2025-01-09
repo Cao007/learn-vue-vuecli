@@ -8,4 +8,4 @@ export { default as RefCompComp } from './RefCompComp.vue'
 export { default as RefDomComp } from './RefDomComp.vue'
 export { default as TodoList } from './TodoList.vue'
 export { default as WatchComp } from './WatchComp.vue'
-
+export { default as VueRouterExample } from './VueRouterExample.vue'

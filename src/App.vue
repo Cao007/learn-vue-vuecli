@@ -6,6 +6,7 @@
   <RefDomComp />
   <RefCompComp />
   <NextTickComp />
+  <VueRouterExample />
 </template>
 
 <script lang="ts" setup>
