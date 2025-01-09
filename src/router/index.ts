@@ -22,7 +22,7 @@ const routes = [
     component: NewsView,
     children: [
       {
-        path: 'newItem',
+        path: 'newItem/:id/:title/:content', // params参数占位符
         name: 'newsItem',
         component: NewsItem
       }

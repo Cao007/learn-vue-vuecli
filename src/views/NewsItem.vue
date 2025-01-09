@@ -1,9 +1,9 @@
 <template>
   <div>
     <h2>新闻详情</h2>
-    <p>{{ query.id }}</p>
-    <p>{{ query.title }}</p>
-    <p>{{ query.content }}</p>
+    <p>{{ params.id }}</p>
+    <p>{{ params.title }}</p>
+    <p>{{ params.content }}</p>
   </div>
 </template>
 
@@ -11,7 +11,7 @@
 import { ref, toRefs } from 'vue';
 import { useRoute } from 'vue-router';
 const route = useRoute();
-let { query } = toRefs(route); // toRefs解构保持响应式
+let { params } = toRefs(route); // toRefs解构保持响应式
 
 </script>
 
