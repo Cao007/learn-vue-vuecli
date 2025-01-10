@@ -25,9 +25,7 @@ const routes = [
         path: 'newItem',
         name: 'newsItem',
         component: NewsItem,
-        // 1.接受params参数
-        // props: true 
-        // 2.props函数，接受params参数或query参数
+        // 让路由组件NewsItem，接受params参数或query参数
         props(route: any) {
           return route.query;
         }
