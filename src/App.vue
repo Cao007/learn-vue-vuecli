@@ -7,6 +7,7 @@
   <RefCompComp />
   <NextTickComp />
   <VueRouterExample />
+  <Count />
 </template>
 
 <script lang="ts" setup>
