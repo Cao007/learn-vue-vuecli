@@ -8,6 +8,7 @@
   <NextTickComp />
   <VueRouterExample />
   <Count />
+  <Count2 />
 </template>
 
 <script lang="ts" setup>

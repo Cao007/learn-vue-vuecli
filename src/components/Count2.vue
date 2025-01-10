@@ -1,6 +1,6 @@
 <template>
   <div class="countContainer">
-    <h2>Count计数</h2>
+    <h2>Count2计数</h2>
     <h3>当前求和为：{{ sum }}</h3>
     <select name="" id="" v-model.number="num">
       <option value="1">1</option>
@@ -14,10 +14,10 @@
 </template>
 
 <script setup lang="ts">
-import { useCountStore } from '@/store/Count';
+import { useCount2Store } from '@/store/Count2';
 import { storeToRefs } from 'pinia';
 
-const countStore = useCountStore();
+const countStore = useCount2Store();
 const { sum, num } = storeToRefs(countStore);
 const { increment, decrement } = countStore;
 
